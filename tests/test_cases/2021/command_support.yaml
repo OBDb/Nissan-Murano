@@ -1,4 +1,4 @@
-model_year: 2017
+model_year: 2021
 can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 supported_commands_by_ecu:
@@ -24,10 +24,8 @@ supported_commands_by_ecu:
   - 0121:MIL_DIST
   - 0124:LAMBDA11_WIDE,O2S11_WIDE
   - 012E:EVAP_PCT
-  - 012F:FLI
   - 0130:WARM_UPS
   - 0131:CLR_DIST
-  - 0132:EVAP_VP
   - 0133:BARO
   - 013C:CATEMP11
   - 013D:CATEMP21
@@ -58,39 +56,3 @@ supported_commands_by_ecu:
   - 0145:TP_R
   - 0147:TP_B
   - 0151:FUEL_TYP
-unsupported_commands_by_ecu:
-  743:
-  - 743.763.220E01
-  - 743.763.220E25
-  - 743.763.220E26
-  - 743.763.220E27
-  - 743.763.220E28
-  - 743.763.220E2E
-  797:
-  - 797.79A.221103
-  - 797.79A.221106
-  - 797.79A.22110F
-  - 797.79A.221146
-  - 797.79A.22114E
-  - 797.79A.221151
-  - 797.79A.221152
-  - 797.79A.221156
-  - 797.79A.22115D
-  - 797.79A.221183
-  - 797.79A.221203
-  - 797.79A.221205
-  - 797.79A.22121A
-  - 797.79A.221234
-  - 797.79A.221236
-  - 797.79A.221255
-  - 797.79A.221261
-  - 797.79A.221262
-  - 797.79A.221304
-  - 797.79A.221318
-  - 797.79A.22131A
-  79B:
-  - 79B.7BB.2101
-  - 79B.7BB.2161
-  7E0:
-  - 7E0.7E8.221186
-  - 7E0.7E8.221266
