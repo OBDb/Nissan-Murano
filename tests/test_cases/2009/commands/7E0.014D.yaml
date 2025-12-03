@@ -12,3 +12,9 @@ test_cases:
 - expected_values:
     MIL_TIME: 1098
   response: 7E804414D044A
+- expected_values:
+    MIL_TIME: 1122
+  response: 7E804414D0462
+- expected_values:
+    MIL_TIME: 1123
+  response: 7E804414D0463
