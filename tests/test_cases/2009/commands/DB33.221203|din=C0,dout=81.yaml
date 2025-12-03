@@ -1,0 +1,5 @@
+command_id: DB33.221203|din=C0,dout=81
+test_cases:
+- expected_values:
+    NI_MIL_DIST: 438
+  response: 7E80562120301B6
