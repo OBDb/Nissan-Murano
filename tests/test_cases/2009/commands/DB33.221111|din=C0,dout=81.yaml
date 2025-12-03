@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     NI_FUEL_T2: 27
   response: 7E8046211114D
+- expected_values:
+    NI_FUEL_T2: 30
+  response: '7E80462111150'
