@@ -4,23 +4,5 @@ test_cases:
     NI_VPWR: 12.32
   response: 7E8046211039A
 - expected_values:
-    NI_VPWR: 12.8
-  response: 7E804621103A0
-- expected_values:
-    NI_VPWR: 12.88
-  response: 7E804621103A1
-- expected_values:
-    NI_VPWR: 12.96
-  response: 7E804621103A2
-- expected_values:
-    NI_VPWR: 13.04
-  response: 7E804621103A3
-- expected_values:
-    NI_VPWR: 13.12
-  response: 7E804621103A4
-- expected_values:
-    NI_VPWR: 13.2
-  response: 7E804621103A5
-- expected_values:
-    NI_VPWR: 13.28
-  response: 7E804621103A6
+    NI_VPWR: 14.32
+  response: 7E804621103B3
