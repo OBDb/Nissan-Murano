@@ -1,0 +1,32 @@
+command_id: 723.735.220101
+test_cases:
+- expected_values:
+    NISSAN_YAW_RATE: 0.1
+  response: '735056201010001'
+- expected_values:
+    NISSAN_YAW_RATE: 0.2
+  response: '735056201010002'
+- expected_values:
+    NISSAN_YAW_RATE: 0.3
+  response: '735056201010003'
+- expected_values:
+    NISSAN_YAW_RATE: 0.4
+  response: '735056201010004'
+- expected_values:
+    NISSAN_YAW_RATE: 0.5
+  response: '735056201010005'
+- expected_values:
+    NISSAN_YAW_RATE: 0.6
+  response: '735056201010006'
+- expected_values:
+    NISSAN_YAW_RATE: 0.7
+  response: '735056201010007'
+- expected_values:
+    NISSAN_YAW_RATE: 1.2
+  response: 73505620101000C
+- expected_values:
+    NISSAN_YAW_RATE: 1.8
+  response: '735056201010012'
+- expected_values:
+    NISSAN_YAW_RATE: -0.9
+  response: 73505620101FFF7
