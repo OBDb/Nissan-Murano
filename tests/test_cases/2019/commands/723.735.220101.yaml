@@ -1,0 +1,11 @@
+command_id: 723.735.220101
+test_cases:
+- expected_values:
+    NISSAN_YAW_RATE: 0.1
+  response: '735056201010001'
+- expected_values:
+    NISSAN_YAW_RATE: -12.8
+  response: 73505620101FF80
+- expected_values:
+    NISSAN_YAW_RATE: -0.5
+  response: 73505620101FFFB
