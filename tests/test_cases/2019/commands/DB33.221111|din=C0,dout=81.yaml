@@ -1,0 +1,11 @@
+command_id: DB33.221111|din=C0,dout=81
+test_cases:
+- expected_values:
+    NI_FUEL_T2: 28
+  response: 7E8046211114E
+- expected_values:
+    NI_FUEL_T2: 31
+  response: '7E80462111151'
+- expected_values:
+    NI_FUEL_T2: 32
+  response: '7E80462111152'
