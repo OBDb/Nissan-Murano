@@ -1,0 +1,14 @@
+command_id: 740.760.221209
+test_cases:
+- expected_values:
+    NISSAN_BRAKE_MC_P: 0
+  response: '760056212090000'
+- expected_values:
+    NISSAN_BRAKE_MC_P: 14.97396
+  response: '760056212090017'
+- expected_values:
+    NISSAN_BRAKE_MC_P: 20.83333
+  response: '760056212090020'
+- expected_values:
+    NISSAN_BRAKE_MC_P: 32.55208
+  response: '760056212090032'
