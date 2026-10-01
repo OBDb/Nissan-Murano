@@ -1,4 +1,4 @@
-command_id: 758.778.2110|fc=1,din=C0,dout=81
+command_id: 758.778.2110|fc=1
 test_cases:
 - expected_values:
     NISSAN_WHL_1_P: 0
