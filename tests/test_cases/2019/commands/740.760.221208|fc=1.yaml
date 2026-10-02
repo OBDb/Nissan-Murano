@@ -1,0 +1,5 @@
+command_id: 740.760.221208|fc=1
+test_cases:
+- expected_values:
+    NISSAN_ABS_STEER_ANG: -37.5
+  response: 76005621208FE89
