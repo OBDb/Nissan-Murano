@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.221219|din=C0,dout=81
+test_cases:
+- expected_values:
+    NISSAN_TCM_ISO_1_C: 0.002
+  response: 7E905621219020D
