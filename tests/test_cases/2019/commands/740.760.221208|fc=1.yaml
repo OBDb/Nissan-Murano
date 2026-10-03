@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     NISSAN_ABS_STEER_ANG: -37.5
   response: 76005621208FE89
+- expected_values:
+    NISSAN_ABS_STEER_ANG: -11.8
+  response: 76005621208FF8A
+- expected_values:
+    NISSAN_ABS_STEER_ANG: -9
+  response: 76005621208FFA6

@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.221202|din=C0,dout=81
+test_cases:
+- expected_values:
+    NISSAN_TCM_PRI_RPM: 1182
+  response: 7E905621202049E

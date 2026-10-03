@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.221225
+test_cases:
+- expected_values:
+    NISSAN_UP_OXYGEN_SENS_V: 1.975
+  response: 7E805621225018B
+- expected_values:
+    NISSAN_UP_OXYGEN_SENS_V: 2.02
+  response: '7E8056212250194'
+- expected_values:
+    NISSAN_UP_OXYGEN_SENS_V: 3.035
+  response: 7E805621225025F
+- expected_values:
+    NISSAN_UP_OXYGEN_SENS_V: 3.715
+  response: 7E80562122502E7
+- expected_values:
+    NISSAN_UP_OXYGEN_SENS_V: 3.74
+  response: 7E80562122502EC
