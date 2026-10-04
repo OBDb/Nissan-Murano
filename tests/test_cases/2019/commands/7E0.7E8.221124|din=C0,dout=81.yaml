@@ -7,8 +7,17 @@ test_cases:
     NISSAN_AF_ADJ_B2: -10
   response: 7E8046211245A
 - expected_values:
+    NISSAN_AF_ADJ_B2: -9
+  response: 7E8046211245B
+- expected_values:
+    NISSAN_AF_ADJ_B2: -7
+  response: 7E8046211245D
+- expected_values:
     NISSAN_AF_ADJ_B2: -6
   response: 7E8046211245E
+- expected_values:
+    NISSAN_AF_ADJ_B2: -3
+  response: '7E80462112461'
 - expected_values:
     NISSAN_AF_ADJ_B2: 0
   response: '7E80462112464'

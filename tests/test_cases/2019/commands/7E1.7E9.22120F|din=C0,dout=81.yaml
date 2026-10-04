@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     NISSAN_TCM_RPM_2: 1225
   response: 7E90562120F04C9
+- expected_values:
+    NISSAN_TCM_RPM_2: 1350
+  response: 7E90562120F0546

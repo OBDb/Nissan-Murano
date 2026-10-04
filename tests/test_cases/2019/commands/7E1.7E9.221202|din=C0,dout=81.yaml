@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     NISSAN_TCM_PRI_RPM: 1182
   response: 7E905621202049E
+- expected_values:
+    NISSAN_TCM_PRI_RPM: 1243
+  response: 7E90562120204DB
+- expected_values:
+    NISSAN_TCM_PRI_RPM: 1262
+  response: 7E90562120204EE

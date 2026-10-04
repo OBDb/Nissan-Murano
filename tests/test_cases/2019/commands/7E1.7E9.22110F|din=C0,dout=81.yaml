@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     NISSAN_TCM_PRI_P_TGT: 800
   response: 7E90462110F20
+- expected_values:
+    NISSAN_TCM_PRI_P_TGT: 1350
+  response: 7E90462110F36
+- expected_values:
+    NISSAN_TCM_PRI_P_TGT: 1475
+  response: 7E90462110F3B

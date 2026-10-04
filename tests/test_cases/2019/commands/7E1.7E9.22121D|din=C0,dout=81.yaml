@@ -3,3 +3,13 @@ test_cases:
 - expected_values:
     NISSAN_TCM_SEL_SOL_C: 0.002
   response: 7E90562121D02F9
+- expected_values:
+    NISSAN_TCM_SEL_SOL_C: 0.002
+  response: |-
+    7E9240000000CFFFFFF
+    7E90562121D02E1
+- expected_values:
+    NISSAN_TCM_SEL_SOL_C: 0.002
+  response: |-
+    7E9240000000CFFFFFF
+    7E90562121D02FA
