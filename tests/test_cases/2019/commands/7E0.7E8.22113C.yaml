@@ -1,6 +1,24 @@
 command_id: 7E0.7E8.22113C
 test_cases:
 - expected_values:
+    NISSAN_IGN_ADVANCE: 31
+  response: 7E80462113C51
+- expected_values:
+    NISSAN_IGN_ADVANCE: 29
+  response: 7E80462113C53
+- expected_values:
+    NISSAN_IGN_ADVANCE: 28
+  response: 7E80462113C54
+- expected_values:
+    NISSAN_IGN_ADVANCE: 26
+  response: 7E80462113C56
+- expected_values:
+    NISSAN_IGN_ADVANCE: 24
+  response: 7E80462113C58
+- expected_values:
+    NISSAN_IGN_ADVANCE: 23
+  response: 7E80462113C59
+- expected_values:
     NISSAN_IGN_ADVANCE: 15
   response: 7E80462113C61
 - expected_values:
