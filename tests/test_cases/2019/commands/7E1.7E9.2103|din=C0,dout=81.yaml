@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     NISSAN_TRANS_ATF: 9875
   response: '7E906610300002693'
+- expected_values:
+    NISSAN_TRANS_ATF: 9880
+  response: '7E906610300002698'

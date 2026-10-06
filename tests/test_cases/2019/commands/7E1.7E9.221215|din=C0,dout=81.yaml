@@ -4,6 +4,12 @@ test_cases:
     NISSAN_TCM_PRI_TQ: 24.9
   response: 7E90562121500F9
 - expected_values:
+    NISSAN_TCM_PRI_TQ: 91.5
+  response: '7E9056212150393'
+- expected_values:
+    NISSAN_TCM_PRI_TQ: 112.1
+  response: '7E9056212150461'
+- expected_values:
     NISSAN_TCM_PRI_TQ: 198.8
   response: 7E90562121507C4
 - expected_values:

@@ -1,8 +1,14 @@
 command_id: 7E1.7E9.22110F|din=C0,dout=81
 test_cases:
 - expected_values:
+    NISSAN_TCM_PRI_P_TGT: 525
+  response: 7E90462110F15
+- expected_values:
     NISSAN_TCM_PRI_P_TGT: 800
   response: 7E90462110F20
+- expected_values:
+    NISSAN_TCM_PRI_P_TGT: 1225
+  response: 7E90462110F31
 - expected_values:
     NISSAN_TCM_PRI_P_TGT: 1350
   response: 7E90462110F36
