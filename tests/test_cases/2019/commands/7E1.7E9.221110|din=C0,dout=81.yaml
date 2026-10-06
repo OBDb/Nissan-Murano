@@ -7,5 +7,11 @@ test_cases:
     NISSAN_TCM_SEL_P_TGT: 475
   response: '7E90462111013'
 - expected_values:
+    NISSAN_TCM_SEL_P_TGT: 575
+  response: '7E90462111017'
+- expected_values:
     NISSAN_TCM_SEL_P_TGT: 675
   response: 7E9046211101B
+- expected_values:
+    NISSAN_TCM_SEL_P_TGT: 700
+  response: 7E9046211101C

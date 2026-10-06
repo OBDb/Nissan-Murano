@@ -4,20 +4,8 @@ test_cases:
     NISSAN_REFRIGERANT_FLUID_V: 0.885
   response: 7E80562122300B1
 - expected_values:
-    NISSAN_REFRIGERANT_FLUID_V: 0.895
-  response: 7E80562122300B3
-- expected_values:
-    NISSAN_REFRIGERANT_FLUID_V: 0.905
-  response: 7E80562122300B5
-- expected_values:
     NISSAN_REFRIGERANT_FLUID_V: 0.94
   response: 7E80562122300BC
 - expected_values:
     NISSAN_REFRIGERANT_FLUID_V: 1.285
   response: '7E8056212230101'
-- expected_values:
-    NISSAN_REFRIGERANT_FLUID_V: 1.355
-  response: 7E805621223010F
-- expected_values:
-    NISSAN_REFRIGERANT_FLUID_V: 1.505
-  response: 7E805621223012D

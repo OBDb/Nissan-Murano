@@ -4,8 +4,14 @@ test_cases:
     NISSAN_TCM_ENG_TQ: 6
   response: 7E905621214003C
 - expected_values:
+    NISSAN_TCM_ENG_TQ: 28
+  response: '7E9056212140118'
+- expected_values:
     NISSAN_TCM_ENG_TQ: 93.5
   response: 7E90562121403A7
+- expected_values:
+    NISSAN_TCM_ENG_TQ: 114
+  response: '7E9056212140474'
 - expected_values:
     NISSAN_TCM_ENG_TQ: 132.5
   response: 7E905621214052D
