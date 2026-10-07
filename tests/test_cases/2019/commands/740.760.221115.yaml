@@ -4,5 +4,5 @@ test_cases:
     NISSAN_APP: 0
   response: '7600462111500'
 - expected_values:
-    NISSAN_APP: 33
-  response: '7600462111542'
+    NISSAN_APP: 68
+  response: '7600462111588'
