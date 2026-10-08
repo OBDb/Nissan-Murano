@@ -10,8 +10,23 @@ test_cases:
     NISSAN_TCM_PRI_SOL_C: 0.002
   response: 7E90562121B02F6
 - expected_values:
+    NISSAN_TCM_PRI_SOL_C: 0.002
+  response: 7E90562121B02F9
+- expected_values:
+    NISSAN_TCM_PRI_SOL_C: 0.002
+  response: 7E90562121B02FF
+- expected_values:
     NISSAN_TCM_PRI_SOL_C: 0.003
   response: 7E90562121B0304
 - expected_values:
     NISSAN_TCM_PRI_SOL_C: 0.003
   response: 7E90562121B0310
+- expected_values:
+    NISSAN_TCM_PRI_SOL_C: 0.003
+  response: 7E90562121B031C
+- expected_values:
+    NISSAN_TCM_PRI_SOL_C: 0.003
+  response: 7E90562121B0323
+- expected_values:
+    NISSAN_TCM_PRI_SOL_C: 0.003
+  response: 7E90562121B0324

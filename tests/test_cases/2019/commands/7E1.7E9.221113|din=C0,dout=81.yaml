@@ -1,6 +1,9 @@
 command_id: 7E1.7E9.221113|din=C0,dout=81
 test_cases:
 - expected_values:
+    NISSAN_TCM_REQ_TQ: -92
+  response: 7E904621113A0
+- expected_values:
     NISSAN_TCM_REQ_TQ: 66
   response: 7E904621113EF
 - expected_values:
