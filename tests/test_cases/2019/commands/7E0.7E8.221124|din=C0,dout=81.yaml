@@ -1,26 +1,8 @@
 command_id: 7E0.7E8.221124|din=C0,dout=81
 test_cases:
 - expected_values:
-    NISSAN_AF_ADJ_B2: -11
-  response: '7E80462112459'
+    NISSAN_AF_ADJ_B2: -14
+  response: '7E80462112456'
 - expected_values:
-    NISSAN_AF_ADJ_B2: -10
-  response: 7E8046211245A
-- expected_values:
-    NISSAN_AF_ADJ_B2: -9
-  response: 7E8046211245B
-- expected_values:
-    NISSAN_AF_ADJ_B2: -7
-  response: 7E8046211245D
-- expected_values:
-    NISSAN_AF_ADJ_B2: -6
-  response: 7E8046211245E
-- expected_values:
-    NISSAN_AF_ADJ_B2: -3
-  response: '7E80462112461'
-- expected_values:
-    NISSAN_AF_ADJ_B2: -1
-  response: '7E80462112463'
-- expected_values:
-    NISSAN_AF_ADJ_B2: 0
-  response: '7E80462112464'
+    NISSAN_AF_ADJ_B2: 6
+  response: 7E8046211246A

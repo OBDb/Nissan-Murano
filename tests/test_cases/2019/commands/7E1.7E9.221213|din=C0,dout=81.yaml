@@ -1,6 +1,12 @@
 command_id: 7E1.7E9.221213|din=C0,dout=81
 test_cases:
 - expected_values:
+    NISSAN_TCM_ENG_TQ_TX: 0
+  response: '7E9056212130000'
+- expected_values:
+    NISSAN_TCM_ENG_TQ_TX: 2
+  response: '7E9056212130014'
+- expected_values:
     NISSAN_TCM_ENG_TQ_TX: 6
   response: 7E905621213003C
 - expected_values:
@@ -15,3 +21,6 @@ test_cases:
 - expected_values:
     NISSAN_TCM_ENG_TQ_TX: -8
   response: 7E905621213FFB0
+- expected_values:
+    NISSAN_TCM_ENG_TQ_TX: -4
+  response: 7E905621213FFD8
