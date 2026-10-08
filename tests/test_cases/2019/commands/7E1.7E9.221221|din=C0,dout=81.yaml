@@ -14,4 +14,10 @@ test_cases:
   response: 7E90562122100BB
 - expected_values:
     NISSAN_TCM_PRI_SOL_MON: 0
+  response: 7E90562122100BD
+- expected_values:
+    NISSAN_TCM_PRI_SOL_MON: 0
+  response: 7E90562122100BE
+- expected_values:
+    NISSAN_TCM_PRI_SOL_MON: 0
   response: 7E90562122100CE
