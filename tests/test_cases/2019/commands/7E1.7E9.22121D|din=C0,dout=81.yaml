@@ -8,7 +8,22 @@ test_cases:
   response: 7E90562121D02C8
 - expected_values:
     NISSAN_TCM_SEL_SOL_C: 0.002
+  response: 7E90562121D02EE
+- expected_values:
+    NISSAN_TCM_SEL_SOL_C: 0.002
+  response: 7E90562121D02F1
+- expected_values:
+    NISSAN_TCM_SEL_SOL_C: 0.002
+  response: 7E90562121D02F5
+- expected_values:
+    NISSAN_TCM_SEL_SOL_C: 0.002
+  response: 7E90562121D02F6
+- expected_values:
+    NISSAN_TCM_SEL_SOL_C: 0.002
   response: 7E90562121D02F9
+- expected_values:
+    NISSAN_TCM_SEL_SOL_C: 0.003
+  response: 7E90562121D03E8
 - expected_values:
     NISSAN_TCM_SEL_SOL_C: 0.002
   response: |-

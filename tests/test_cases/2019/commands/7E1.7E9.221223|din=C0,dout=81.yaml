@@ -5,6 +5,9 @@ test_cases:
   response: 7E90562122300B2
 - expected_values:
     NISSAN_TCM_SEL_SOL_MON: 0
+  response: 7E90562122300BB
+- expected_values:
+    NISSAN_TCM_SEL_SOL_MON: 0
   response: 7E90562122300BC
 - expected_values:
     NISSAN_TCM_SEL_SOL_MON: 0
@@ -12,3 +15,9 @@ test_cases:
 - expected_values:
     NISSAN_TCM_SEL_SOL_MON: 0
   response: 7E90562122300BE
+- expected_values:
+    NISSAN_TCM_SEL_SOL_MON: 0
+  response: 7E90562122300F7
+- expected_values:
+    NISSAN_TCM_SEL_SOL_MON: 0
+  response: 7E90562122300F9
