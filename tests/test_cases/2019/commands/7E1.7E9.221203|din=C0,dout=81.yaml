@@ -1,17 +1,11 @@
 command_id: 7E1.7E9.221203|din=C0,dout=81
 test_cases:
 - expected_values:
-    NISSAN_TCM_SEC_RPM: 687
-  response: 7E90562120302AF
+    NISSAN_TCM_SEC_RPM: 0
+  response: '7E9056212030000'
 - expected_values:
-    NISSAN_TCM_SEC_RPM: 2200
-  response: '7E9056212030898'
-- expected_values:
-    NISSAN_TCM_SEC_RPM: 2272
-  response: 7E90562120308E0
+    NISSAN_TCM_SEC_RPM: 243
+  response: 7E90562120300F3
 - expected_values:
     NISSAN_TCM_SEC_RPM: 2849
   response: 7E9056212030B21
-- expected_values:
-    NISSAN_TCM_SEC_RPM: 3028
-  response: 7E9056212030BD4

@@ -13,5 +13,20 @@ test_cases:
     NISSAN_TCM_PULLEY_RAT: 0.5086
   response: 7E90562121013DE
 - expected_values:
+    NISSAN_TCM_PULLEY_RAT: 0.8766
+  response: 7E905621210223E
+- expected_values:
+    NISSAN_TCM_PULLEY_RAT: 0.9154
+  response: 7E90562121023C2
+- expected_values:
     NISSAN_TCM_PULLEY_RAT: 1.331
   response: 7E90562121033FE
+- expected_values:
+    NISSAN_TCM_PULLEY_RAT: 1.9085
+  response: 7E9056212104A8D
+- expected_values:
+    NISSAN_TCM_PULLEY_RAT: 2.4031
+  response: 7E9056212105DDF
+- expected_values:
+    NISSAN_TCM_PULLEY_RAT: 2.61
+  response: 7E90562121065F4

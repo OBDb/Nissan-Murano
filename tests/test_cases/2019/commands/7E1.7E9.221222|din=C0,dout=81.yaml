@@ -2,6 +2,24 @@ command_id: 7E1.7E9.221222|din=C0,dout=81
 test_cases:
 - expected_values:
     NISSAN_TCM_SEC_SOL_MON: 0
+  response: 7E90562122200AC
+- expected_values:
+    NISSAN_TCM_SEC_SOL_MON: 0
+  response: 7E90562122200B1
+- expected_values:
+    NISSAN_TCM_SEC_SOL_MON: 0
+  response: 7E90562122200BA
+- expected_values:
+    NISSAN_TCM_SEC_SOL_MON: 0
+  response: 7E90562122200BF
+- expected_values:
+    NISSAN_TCM_SEC_SOL_MON: 0
+  response: 7E90562122200C2
+- expected_values:
+    NISSAN_TCM_SEC_SOL_MON: 0
+  response: 7E90562122200C3
+- expected_values:
+    NISSAN_TCM_SEC_SOL_MON: 0
   response: 7E90562122200C6
 - expected_values:
     NISSAN_TCM_SEC_SOL_MON: 0
