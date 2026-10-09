@@ -3,7 +3,27 @@ test_cases:
 - expected_values:
     NISSAN_AC_COMP: 0
     NISSAN_IDLE_CTRL_MODE: 0
+  response: '7E8056213070046'
+- expected_values:
+    NISSAN_AC_COMP: 0
+    NISSAN_IDLE_CTRL_MODE: 1
+  response: '7E8056213070246'
+- expected_values:
+    NISSAN_AC_COMP: 0
+    NISSAN_IDLE_CTRL_MODE: 0
   response: '7E8056213070446'
+- expected_values:
+    NISSAN_AC_COMP: 0
+    NISSAN_IDLE_CTRL_MODE: 1
+  response: '7E8056213070646'
+- expected_values:
+    NISSAN_AC_COMP: 1
+    NISSAN_IDLE_CTRL_MODE: 0
+  response: '7E8056213074046'
+- expected_values:
+    NISSAN_AC_COMP: 1
+    NISSAN_IDLE_CTRL_MODE: 1
+  response: '7E8056213074246'
 - expected_values:
     NISSAN_AC_COMP: 1
     NISSAN_IDLE_CTRL_MODE: 0
