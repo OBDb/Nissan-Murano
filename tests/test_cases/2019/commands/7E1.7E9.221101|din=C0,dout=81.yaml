@@ -1,17 +1,8 @@
 command_id: 7E1.7E9.221101|din=C0,dout=81
 test_cases:
 - expected_values:
-    NISSAN_TCM_VSS_SENS: 19
-  response: '7E90462110113'
-- expected_values:
-    NISSAN_TCM_VSS_SENS: 60
-  response: 7E9046211013C
-- expected_values:
-    NISSAN_TCM_VSS_SENS: 66
-  response: '7E90462110142'
-- expected_values:
-    NISSAN_TCM_VSS_SENS: 83
-  response: '7E90462110153'
+    NISSAN_TCM_VSS_SENS: 0
+  response: '7E90462110100'
 - expected_values:
     NISSAN_TCM_VSS_SENS: 90
   response: 7E9046211015A

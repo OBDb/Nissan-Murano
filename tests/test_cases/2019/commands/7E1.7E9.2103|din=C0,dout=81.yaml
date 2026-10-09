@@ -6,3 +6,24 @@ test_cases:
 - expected_values:
     NISSAN_TRANS_ATF: 9880
   response: '7E906610300002698'
+- expected_values:
+    NISSAN_TRANS_ATF: 9902
+  response: 7E9066103000026AE
+- expected_values:
+    NISSAN_TRANS_ATF: 9905
+  response: 7E9066103000026B1
+- expected_values:
+    NISSAN_TRANS_ATF: 9984
+  response: '7E906610300002700'
+- expected_values:
+    NISSAN_TRANS_ATF: 10007
+  response: '7E906610300002717'
+- expected_values:
+    NISSAN_TRANS_ATF: 10030
+  response: 7E90661030000272E
+- expected_values:
+    NISSAN_TRANS_ATF: 10040
+  response: '7E906610300002738'
+- expected_values:
+    NISSAN_TRANS_ATF: 10043
+  response: 7E90661030000273B
