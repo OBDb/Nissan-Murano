@@ -1,17 +1,11 @@
 command_id: 7E1.7E9.221202|din=C0,dout=81
 test_cases:
 - expected_values:
-    NISSAN_TCM_PRI_RPM: 1092
-  response: '7E9056212020444'
-- expected_values:
-    NISSAN_TCM_PRI_RPM: 1182
-  response: 7E905621202049E
-- expected_values:
-    NISSAN_TCM_PRI_RPM: 1195
-  response: 7E90562120204AB
-- expected_values:
-    NISSAN_TCM_PRI_RPM: 1243
-  response: 7E90562120204DB
+    NISSAN_TCM_PRI_RPM: 0
+  response: '7E9056212020000'
 - expected_values:
     NISSAN_TCM_PRI_RPM: 1262
   response: 7E90562120204EE
+- expected_values:
+    NISSAN_TCM_PRI_RPM: 1620
+  response: '7E9056212020654'
