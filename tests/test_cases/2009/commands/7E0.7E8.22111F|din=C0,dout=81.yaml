@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.22111F|din=C0,dout=81
+test_cases:
+- expected_values:
+    NISSAN_VARIABLE_VLV_TIM_OIL_T: 92
+  response: 7E80462111F8E
+- expected_values:
+    NISSAN_VARIABLE_VLV_TIM_OIL_T: 93
+  response: 7E80462111F8F
+- expected_values:
+    NISSAN_VARIABLE_VLV_TIM_OIL_T: 94
+  response: 7E80462111F90
+- expected_values:
+    NISSAN_VARIABLE_VLV_TIM_OIL_T: 95
+  response: 7E80462111F91
+- expected_values:
+    NISSAN_VARIABLE_VLV_TIM_OIL_T: 96
+  response: 7E80462111F92
+- expected_values:
+    NISSAN_VARIABLE_VLV_TIM_OIL_T: 97
+  response: 7E80462111F93
+- expected_values:
+    NISSAN_VARIABLE_VLV_TIM_OIL_T: 98
+  response: 7E80462111F94
