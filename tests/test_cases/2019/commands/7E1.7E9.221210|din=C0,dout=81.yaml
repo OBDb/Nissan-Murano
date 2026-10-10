@@ -1,17 +1,14 @@
 command_id: 7E1.7E9.221210|din=C0,dout=81
 test_cases:
 - expected_values:
-    NISSAN_TCM_PULLEY_RAT: 0.4028
-  response: 7E9056212100FBC
+    NISSAN_TCM_PULLEY_RAT: 0.4023
+  response: 7E9056212100FB7
 - expected_values:
-    NISSAN_TCM_PULLEY_RAT: 0.4115
-  response: '7E9056212101013'
-- expected_values:
-    NISSAN_TCM_PULLEY_RAT: 0.5077
-  response: 7E90562121013D5
-- expected_values:
-    NISSAN_TCM_PULLEY_RAT: 0.5086
-  response: 7E90562121013DE
+    NISSAN_TCM_PULLEY_RAT: 0.4875
+  response: 7E905621210130B
 - expected_values:
     NISSAN_TCM_PULLEY_RAT: 1.331
   response: 7E90562121033FE
+- expected_values:
+    NISSAN_TCM_PULLEY_RAT: 2.61
+  response: 7E90562121065F4

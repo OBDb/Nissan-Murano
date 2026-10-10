@@ -5,13 +5,14 @@ test_cases:
   response: 7E90562121E0000
 - expected_values:
     NISSAN_TCM_SOL_MON_1: 0
-  response: 7E90562121E006D
+  response: 7E90562121E00AC
 - expected_values:
     NISSAN_TCM_SOL_MON_1: 0
-  response: 7E90562121E008C
+  response: |-
+    7E9240000000CFFFFFF
+    7E90562121E0000
 - expected_values:
     NISSAN_TCM_SOL_MON_1: 0
-  response: 7E90562121E008D
-- expected_values:
-    NISSAN_TCM_SOL_MON_1: 0
-  response: 7E90562121E00A4
+  response: |-
+    7E9240000000CFFFFFF
+    7E90562121E00A1
