@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.221111|din=C0,dout=81
+test_cases:
+- expected_values:
+    NISSAN_FUEL_T: 27
+  response: 7E8046211114D
+- expected_values:
+    NISSAN_FUEL_T: 30
+  response: '7E80462111150'
