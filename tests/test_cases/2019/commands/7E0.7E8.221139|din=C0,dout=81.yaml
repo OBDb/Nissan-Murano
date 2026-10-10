@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     NISSAN_CAM_DUTY_B2: 30.85938
   response: 7E8046211394F
+- expected_values:
+    NISSAN_CAM_DUTY_B2: 35.9375
+  response: 7E8046211395C
