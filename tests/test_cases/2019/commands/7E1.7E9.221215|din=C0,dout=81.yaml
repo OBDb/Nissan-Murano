@@ -1,17 +1,24 @@
 command_id: 7E1.7E9.221215|din=C0,dout=81
 test_cases:
 - expected_values:
+    NISSAN_TCM_PRI_TQ: 19
+  response: 7E90562121500BE
+- expected_values:
     NISSAN_TCM_PRI_TQ: 24.9
   response: 7E90562121500F9
 - expected_values:
-    NISSAN_TCM_PRI_TQ: 91.5
-  response: '7E9056212150393'
+    NISSAN_TCM_PRI_TQ: 51.7
+  response: '7E9056212150205'
 - expected_values:
-    NISSAN_TCM_PRI_TQ: 112.1
-  response: '7E9056212150461'
+    NISSAN_TCM_PRI_TQ: -19.4
+  response: 7E905621215FF3E
 - expected_values:
-    NISSAN_TCM_PRI_TQ: 198.8
-  response: 7E90562121507C4
+    NISSAN_TCM_PRI_TQ: 42.8
+  response: |-
+    7E9240000000CFFFFFF
+    7E90562121501AC
 - expected_values:
-    NISSAN_TCM_PRI_TQ: -93.3
-  response: 7E905621215FC5B
+    NISSAN_TCM_PRI_TQ: -19.3
+  response: |-
+    7E9240000000CFFFFFF
+    7E905621215FF3F
