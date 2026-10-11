@@ -10,5 +10,5 @@ test_cases:
     NISSAN_TCM_PRI_RPM_2: 1277
   response: 7E90562120D04FD
 - expected_values:
-    NISSAN_TCM_PRI_RPM_2: 1675
-  response: 7E90562120D068B
+    NISSAN_TCM_PRI_RPM_2: 2024
+  response: 7E90562120D07E8

@@ -12,3 +12,12 @@ test_cases:
 - expected_values:
     NISSAN_MAF: 5.85
   response: '7E8056212090249'
+- expected_values:
+    NISSAN_MAF: 6.01
+  response: '7E8056212090259'
+- expected_values:
+    NISSAN_MAF: 19.97
+  response: 7E80562120907CD
+- expected_values:
+    NISSAN_MAF: 26.75
+  response: 7E8056212090A73

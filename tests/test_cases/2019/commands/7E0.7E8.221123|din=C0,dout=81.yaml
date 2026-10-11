@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.221123|din=C0,dout=81
+test_cases:
+- expected_values:
+    NISSAN_F_RAT_ADJ_B1: -4
+  response: '7E80462112360'
+- expected_values:
+    NISSAN_F_RAT_ADJ_B1: 0
+  response: '7E80462112364'

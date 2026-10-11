@@ -4,5 +4,5 @@ test_cases:
     NISSAN_TCM_VSS_EST: 0
   response: '7E90462110200'
 - expected_values:
-    NISSAN_TCM_VSS_EST: 89
-  response: '7E90462110259'
+    NISSAN_TCM_VSS_EST: 95
+  response: 7E9046211025F

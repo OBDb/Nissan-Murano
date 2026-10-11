@@ -7,8 +7,8 @@ test_cases:
     NISSAN_TCM_ENG_TQ_ACT: 23
   response: 7E90562121200E6
 - expected_values:
-    NISSAN_TCM_ENG_TQ_ACT: -57
-  response: 7E905621212FDC6
+    NISSAN_TCM_ENG_TQ_ACT: -6.5
+  response: 7E905621212FFBF
 - expected_values:
     NISSAN_TCM_ENG_TQ_ACT: 5.5
   response: |-

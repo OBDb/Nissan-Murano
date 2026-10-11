@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.221110|din=C0,dout=81
+test_cases:
+- expected_values:
+    NISSAN_EVAP_PURGE_DUTY: 0
+  response: '7E80462111000'
+- expected_values:
+    NISSAN_EVAP_PURGE_DUTY: 93
+  response: 7E804621110BA
