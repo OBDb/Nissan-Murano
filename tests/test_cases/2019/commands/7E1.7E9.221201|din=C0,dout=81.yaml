@@ -1,11 +1,11 @@
 command_id: 7E1.7E9.221201|din=C0,dout=81
 test_cases:
 - expected_values:
-    NISSAN_TCM_INPUT_RPM: 0
+    MURANO_TCM_INPUT_RPM: 0
   response: '7E9056212010000'
 - expected_values:
-    NISSAN_TCM_INPUT_RPM: 747
+    MURANO_TCM_INPUT_RPM: 747
   response: 7E90562120102EB
 - expected_values:
-    NISSAN_TCM_INPUT_RPM: 1313
+    MURANO_TCM_INPUT_RPM: 1313
   response: '7E9056212010521'

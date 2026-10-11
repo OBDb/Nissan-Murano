@@ -1,18 +1,18 @@
 command_id: 7E1.7E9.22110F|din=C0,dout=81
 test_cases:
 - expected_values:
-    NISSAN_TCM_PRI_P_TGT: 525
+    MURANO_TCM_PRI_P_TGT: 525
   response: 7E90462110F15
 - expected_values:
-    NISSAN_TCM_PRI_P_TGT: 2950
+    MURANO_TCM_PRI_P_TGT: 2950
   response: 7E90462110F76
 - expected_values:
-    NISSAN_TCM_PRI_P_TGT: 1175
+    MURANO_TCM_PRI_P_TGT: 1175
   response: |-
     7E9240000000CFFFFFF
     7E90462110F2F
 - expected_values:
-    NISSAN_TCM_PRI_P_TGT: 1225
+    MURANO_TCM_PRI_P_TGT: 1225
   response: |-
     7E9240000000CFFFFFF
     7E90462110F31

@@ -1,23 +1,23 @@
-command_id: 7E0.7E8.221209|din=C0,dout=81
+command_id: 7E0.7E8.221209|din=C0
 test_cases:
 - expected_values:
-    NISSAN_MAF: 5.7
+    MURANO_MAF: 5.7
   response: 7E805621209023A
 - expected_values:
-    NISSAN_MAF: 5.74
+    MURANO_MAF: 5.74
   response: 7E805621209023E
 - expected_values:
-    NISSAN_MAF: 5.79
+    MURANO_MAF: 5.79
   response: '7E8056212090243'
 - expected_values:
-    NISSAN_MAF: 5.85
+    MURANO_MAF: 5.85
   response: '7E8056212090249'
 - expected_values:
-    NISSAN_MAF: 6.01
+    MURANO_MAF: 6.01
   response: '7E8056212090259'
 - expected_values:
-    NISSAN_MAF: 19.97
+    MURANO_MAF: 19.97
   response: 7E80562120907CD
 - expected_values:
-    NISSAN_MAF: 26.75
+    MURANO_MAF: 26.75
   response: 7E8056212090A73

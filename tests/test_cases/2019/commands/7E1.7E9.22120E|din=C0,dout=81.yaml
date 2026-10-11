@@ -1,14 +1,14 @@
 command_id: 7E1.7E9.22120E|din=C0,dout=81
 test_cases:
 - expected_values:
-    NISSAN_TCM_SEC_RPM_2: 34
+    MURANO_TCM_SEC_RPM_2: 34
   response: 7E90562120E0022
 - expected_values:
-    NISSAN_TCM_SEC_RPM_2: 1284
+    MURANO_TCM_SEC_RPM_2: 1284
   response: 7E90562120E0504
 - expected_values:
-    NISSAN_TCM_SEC_RPM_2: 1527
+    MURANO_TCM_SEC_RPM_2: 1527
   response: 7E90562120E05F7
 - expected_values:
-    NISSAN_TCM_SEC_RPM_2: 3077
+    MURANO_TCM_SEC_RPM_2: 3077
   response: 7E90562120E0C05

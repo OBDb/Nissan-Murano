@@ -1,21 +1,21 @@
 command_id: 7E1.7E9.221208|din=C0,dout=81
 test_cases:
 - expected_values:
-    NISSAN_TCM_G_V: 0
+    MURANO_TCM_G_V: 0
   response: '7E9056212080000'
 - expected_values:
-    NISSAN_TCM_G_V: -0.103
+    MURANO_TCM_G_V: -0.103
   response: 7E905621208FBFA
 - expected_values:
-    NISSAN_TCM_G_V: -0.024
+    MURANO_TCM_G_V: -0.024
   response: 7E905621208FF10
 - expected_values:
-    NISSAN_TCM_G_V: 0.006
+    MURANO_TCM_G_V: 0.006
   response: |-
     7E9240000000CFFFFFF
     7E905621208003C
 - expected_values:
-    NISSAN_TCM_G_V: 0.049
+    MURANO_TCM_G_V: 0.049
   response: |-
     7E9240000000CFFFFFF
     7E90562120801EA

@@ -1,13 +1,13 @@
 command_id: 7E1.7E9.221103|din=C0,dout=81
 test_cases:
 - expected_values:
-    NISSAN_TCM_VSS: 0
+    MURANO_TCM_VSS: 0
   response: '7E90462110300'
 - expected_values:
-    NISSAN_TCM_VSS: 95
+    MURANO_TCM_VSS: 95
   response: 7E9046211035F
 - expected_values:
-    NISSAN_TCM_VSS: 0
+    MURANO_TCM_VSS: 0
   response: |-
     7E9240000000CFFFFFF
     7E90462110300
