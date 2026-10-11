@@ -1,8 +1,8 @@
 command_id: 7E1.7E9.221218|din=C0,dout=81
 test_cases:
 - expected_values:
-    NISSAN_TCM_PULLEY_RAT_TGT: 0.3935
-  response: 7E9056212180F5F
+    NISSAN_TCM_PULLEY_RAT_TGT: 0.3934
+  response: 7E9056212180F5E
 - expected_values:
     NISSAN_TCM_PULLEY_RAT_TGT: 0.4381
   response: 7E905621218111D

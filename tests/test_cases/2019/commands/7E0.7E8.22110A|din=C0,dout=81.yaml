@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22110A|din=C0,dout=81
+test_cases:
+- expected_values:
+    NISSAN_IGN_TIM_ADVANCE: 28
+  response: 7E80462110A52
+- expected_values:
+    NISSAN_IGN_TIM_ADVANCE: 18
+  response: 7E80462110A5C
+- expected_values:
+    NISSAN_IGN_TIM_ADVANCE: 3
+  response: 7E80462110A6B

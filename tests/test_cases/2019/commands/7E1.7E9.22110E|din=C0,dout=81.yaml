@@ -1,8 +1,8 @@
 command_id: 7E1.7E9.22110E|din=C0,dout=81
 test_cases:
 - expected_values:
-    NISSAN_TCM_LINE_P: 1050
-  response: 7E90462110E2A
+    NISSAN_TCM_LINE_P: 925
+  response: 7E90462110E25
 - expected_values:
     NISSAN_TCM_LINE_P: 2500
   response: 7E90462110E64

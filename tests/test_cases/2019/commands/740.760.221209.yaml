@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     NISSAN_BRAKE_MC_P: -2
   response: 76005621209FFFE
+- expected_values:
+    NISSAN_BRAKE_MC_P: -1
+  response: 76005621209FFFF

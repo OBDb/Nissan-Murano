@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.221204|din=C0,dout=81
+test_cases:
+- expected_values:
+    NISSAN_MAF_VOLTS_B1: 0
+  response: '7E8056212040000'
