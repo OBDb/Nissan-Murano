@@ -1,11 +1,11 @@
 command_id: 7E1.7E9.221202|din=C0,dout=81
 test_cases:
 - expected_values:
-    NISSAN_TCM_PRI_RPM: 0
+    MURANO_TCM_PRI_RPM: 0
   response: '7E9056212020000'
 - expected_values:
-    NISSAN_TCM_PRI_RPM: 1262
+    MURANO_TCM_PRI_RPM: 1262
   response: 7E90562120204EE
 - expected_values:
-    NISSAN_TCM_PRI_RPM: 1620
+    MURANO_TCM_PRI_RPM: 1620
   response: '7E9056212020654'

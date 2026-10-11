@@ -1,8 +1,8 @@
 command_id: 7E1.7E9.221101|din=C0,dout=81
 test_cases:
 - expected_values:
-    NISSAN_TCM_VSS_SENS: 0
+    MURANO_TCM_VSS_SENS: 0
   response: '7E90462110100'
 - expected_values:
-    NISSAN_TCM_VSS_SENS: 95
+    MURANO_TCM_VSS_SENS: 95
   response: 7E9046211015F

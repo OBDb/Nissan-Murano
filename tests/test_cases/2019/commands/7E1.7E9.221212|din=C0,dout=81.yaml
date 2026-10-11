@@ -1,26 +1,26 @@
 command_id: 7E1.7E9.221212|din=C0,dout=81
 test_cases:
 - expected_values:
-    NISSAN_TCM_ENG_TQ_ACT: 0
+    MURANO_TCM_ENG_TQ_ACT: 0
   response: '7E9056212120000'
 - expected_values:
-    NISSAN_TCM_ENG_TQ_ACT: 23
+    MURANO_TCM_ENG_TQ_ACT: 23
   response: 7E90562121200E6
 - expected_values:
-    NISSAN_TCM_ENG_TQ_ACT: -6.5
+    MURANO_TCM_ENG_TQ_ACT: -6.5
   response: 7E905621212FFBF
 - expected_values:
-    NISSAN_TCM_ENG_TQ_ACT: 5.5
+    MURANO_TCM_ENG_TQ_ACT: 5.5
   response: |-
     7E9240000000CFFFFFF
     7E9056212120037
 - expected_values:
-    NISSAN_TCM_ENG_TQ_ACT: 8
+    MURANO_TCM_ENG_TQ_ACT: 8
   response: |-
     7E9240000000CFFFFFF
     7E9056212120050
 - expected_values:
-    NISSAN_TCM_ENG_TQ_ACT: 124.5
+    MURANO_TCM_ENG_TQ_ACT: 124.5
   response: |-
     7E9240000000CFFFFFF
     7E90562121204DD

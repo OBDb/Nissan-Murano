@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22122B|din=C0,dout=81
+test_cases:
+- expected_values:
+    MURANO_CC_S: null
+  response: 7E80562122B0000
