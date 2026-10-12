@@ -6,3 +6,8 @@ test_cases:
 - expected_values:
     MURANO_TCM_VSS_SENS: 95
   response: 7E9046211015F
+- expected_values:
+    MURANO_TCM_VSS_SENS: 0
+  response: |-
+    7E9240000000CFFFFFF
+    7E90462110100

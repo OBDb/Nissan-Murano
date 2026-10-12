@@ -1,11 +1,17 @@
 command_id: 7E0.7E8.221111|din=C0
 test_cases:
 - expected_values:
+    MURANO_FUEL_T_7E0: 18
+  response: '7E80462111144'
+- expected_values:
     MURANO_FUEL_T_7E0: 20
   response: '7E80462111146'
 - expected_values:
     MURANO_FUEL_T_7E0: 21
   response: '7E80462111147'
+- expected_values:
+    MURANO_FUEL_T_7E0: 22
+  response: '7E80462111148'
 - expected_values:
     MURANO_FUEL_T_7E0: 28
   response: 7E8046211114E

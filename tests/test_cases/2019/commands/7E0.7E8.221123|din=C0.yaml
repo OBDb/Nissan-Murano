@@ -4,5 +4,11 @@ test_cases:
     MURANO_F_RAT_ADJ: -4
   response: '7E80462112360'
 - expected_values:
+    MURANO_F_RAT_ADJ: -2
+  response: '7E80462112362'
+- expected_values:
     MURANO_F_RAT_ADJ: 0
   response: '7E80462112364'
+- expected_values:
+    MURANO_F_RAT_ADJ: 4
+  response: '7E80462112368'

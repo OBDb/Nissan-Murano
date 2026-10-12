@@ -1,6 +1,12 @@
 command_id: 7E0.7E8.221209|din=C0
 test_cases:
 - expected_values:
+    MURANO_MAF: 4.96
+  response: 7E80562120901F0
+- expected_values:
+    MURANO_MAF: 5.31
+  response: '7E8056212090213'
+- expected_values:
     MURANO_MAF: 5.7
   response: 7E805621209023A
 - expected_values:
@@ -15,6 +21,9 @@ test_cases:
 - expected_values:
     MURANO_MAF: 6.01
   response: '7E8056212090259'
+- expected_values:
+    MURANO_MAF: 11.6
+  response: '7E8056212090488'
 - expected_values:
     MURANO_MAF: 19.97
   response: 7E80562120907CD
