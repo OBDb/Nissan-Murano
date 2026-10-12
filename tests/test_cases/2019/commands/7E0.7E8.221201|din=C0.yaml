@@ -1,6 +1,15 @@
 command_id: 7E0.7E8.221201|din=C0
 test_cases:
 - expected_values:
+    MURANO_CURRENT_RPM: 787.5
+  response: 7E805621201003F
+- expected_values:
+    MURANO_CURRENT_RPM: 825
+  response: '7E8056212010042'
+- expected_values:
+    MURANO_CURRENT_RPM: 1200
+  response: '7E8056212010060'
+- expected_values:
     MURANO_CURRENT_RPM: 1312.5
   response: '7E8056212010069'
 - expected_values:
