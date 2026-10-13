@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.221209|din=C0
+test_cases:
+- expected_values:
+    MURANO_MAF: 6.63
+  response: '7E8056212090297'

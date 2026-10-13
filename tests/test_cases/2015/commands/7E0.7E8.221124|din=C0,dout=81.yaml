@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.221124|din=C0,dout=81
+test_cases:
+- expected_values:
+    MURANO_F_RAT_ADJ_B2: -5
+  response: 7E8046211245F
