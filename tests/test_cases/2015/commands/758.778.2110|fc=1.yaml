@@ -1,0 +1,11 @@
+command_id: 758.778.2110|fc=1
+test_cases:
+- expected_values:
+    MURANO_WHL_1_P: 38.25
+    MURANO_WHL_2_P: 38.25
+    MURANO_WHL_3_P: 37.5
+    MURANO_WHL_4_P: 37.5
+  response: |-
+    778100F611004E09999
+    778219696F000F06E6E
+    778226E6EFFFFFFFFFF

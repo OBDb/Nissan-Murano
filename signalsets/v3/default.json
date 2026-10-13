@@ -24,19 +24,19 @@
   "signals": [
     {"id": "MURANO_STEER_ANGLE", "path": "Control", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "degrees" }, "name": "Steering wheel angle", "description": "Negative values are clockwise, positive values are counter-clockwise."}
   ]},
-{ "hdr": "740", "rax": "760", "cmd": {"22": "1115"}, "freq": 0.25, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "740", "rax": "760", "cmd": {"22": "1115"}, "freq": 0.25, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018], "from": 2020 },
   "signals": [
     {"id": "MURANO_APP", "path": "Control", "fmt": { "len": 8, "max": 127.5, "div": 2, "unit": "percent" }, "name": "Accelerator pedal position"}
   ]},
-{ "hdr": "740", "rax": "760", "fcm1": true, "cmd": {"22": "1208"}, "freq": 0.25, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "740", "rax": "760", "fcm1": true, "cmd": {"22": "1208"}, "freq": 0.25, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018], "from": 2020 },
   "signals": [
     {"id": "MURANO_ABS_STEER_ANG", "path": "Control", "fmt": { "len": 16, "max": 3276, "min": -3276, "div": 10, "sign": true, "unit": "degrees" }, "name": "Anti-lock brake steering angle"}
   ]},
-{ "hdr": "740", "rax": "760", "cmd": {"22": "1209"}, "freq": 0.25, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "740", "rax": "760", "cmd": {"22": "1209"}, "freq": 0.25, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018], "from": 2020 },
   "signals": [
     {"id": "MURANO_BRAKE_MC_P", "path": "Control", "fmt": { "len": 16, "max": 21332.68, "min": -21333.33, "div": 1.536, "sign": true, "unit": "unknown" }, "name": "Brake master cylinder pressure"}
   ]},
-{ "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"21": "01"}, "freq": 30, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"21": "01"}, "freq": 30, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018], "from": 2020 },
   "signals": [
     {"id": "MURANO_MTR_ODO", "path": "Trips", "fmt": {"bix": 56, "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer, meter group 1", "suggestedMetric": "odometer"}
   ]},
@@ -60,7 +60,7 @@
   "signals": [
     {"id": "MURANO_TP_RL", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "nullmin": 0, "unit": "psi" }, "name": "Rear left tire pressure", "suggestedMetric": "rearLeftTirePressure"}
   ]},
-{ "hdr": "758", "rax": "778", "fcm1": true, "cmd": {"21": "10"}, "freq": 15, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "758", "rax": "778", "fcm1": true, "cmd": {"21": "10"}, "freq": 15, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018], "from": 2020 },
   "signals": [
     {"id": "MURANO_WHL_1_P", "path": "Tires", "fmt": {"bix": 16, "len": 8, "max": 63.75, "div": 4, "nullmin": 0, "unit": "psi" }, "name": "Wheel 1 pressure"},
     {"id": "MURANO_WHL_2_P", "path": "Tires", "fmt": {"bix": 24, "len": 8, "max": 63.75, "div": 4, "nullmin": 0, "unit": "psi" }, "name": "Wheel 2 pressure"},
@@ -117,35 +117,35 @@
     {"id": "MURANO_EFP_LEARNING",       "path": "Engine",  "fmt": {"bix": 184, "len": 16, "max": 0.5,   "min": -0.5,                   "div": 65535, "add": -0.5, "unit": "percent"        }, "name": "Electric fuel pump learning value"},
     {"id": "MURANO_BUTANE_PERCENTAGE",  "path": "Engine",  "fmt": {"bix": 200, "len": 8,  "max": 99.61,              "mul": 7813,      "div": 20000,              "unit": "percent"        }, "name": "Butane percentage"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "C0", "cmd": {"22": "110A"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "7E0", "rax": "7E8", "din": "C0", "cmd": {"22": "110A"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018], "from": 2020 },
   "signals": [
     {"id": "MURANO_IGN_TIM_ADVANCE", "path": "Engine", "fmt": { "len": 8, "max": 110, "min": -145, "mul": -1, "add": 110, "unit": "degrees" }, "name": "Ignition timing advance"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "C0", "cmd": {"22": "1110"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "7E0", "rax": "7E8", "din": "C0", "cmd": {"22": "1110"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018], "from": 2020 },
   "signals": [
     {"id": "MURANO_EVAP_PURGE_DUTY", "path": "Engine", "fmt": { "len": 8, "max": 127, "div": 2, "unit": "percent" }, "name": "EVAP purge duty"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "C0", "cmd": {"22": "1111"}, "freq": 5, "dbgfilter": { "to": 2008, "years": [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018], "from": 2020 },
+{ "hdr": "7E0", "rax": "7E8", "din": "C0", "cmd": {"22": "1111"}, "freq": 5, "dbgfilter": { "to": 2008, "years": [2010, 2011, 2012, 2013, 2014, 2016, 2017, 2018], "from": 2020 },
   "signals": [
     {"id": "MURANO_FUEL_T_7E0", "path": "Fuel", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "Fuel temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "C0", "cmd": {"22": "111F"}, "freq": 5, "dbgfilter": { "to": 2008, "years": [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018], "from": 2020 },
+{ "hdr": "7E0", "rax": "7E8", "din": "C0", "cmd": {"22": "111F"}, "freq": 5, "dbgfilter": { "to": 2008, "years": [2010, 2011, 2012, 2013, 2014, 2016, 2017, 2018], "from": 2020 },
   "signals": [
     {"id": "MURANO_VARIABLE_VLV_TIM_OIL_T", "path": "Engine", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "Variable valve timing oil temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "C0", "cmd": {"22": "1123"}, "freq": 1, "dbgfilter": { "to": 2008, "years": [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018], "from": 2020 },
+{ "hdr": "7E0", "rax": "7E8", "din": "C0", "cmd": {"22": "1123"}, "freq": 1, "dbgfilter": { "to": 2008, "years": [2010, 2011, 2012, 2013, 2014, 2016, 2017, 2018], "from": 2020 },
   "signals": [
     {"id": "MURANO_F_RAT_ADJ", "path": "Engine", "fmt": { "len": 8, "max": 155, "min": -100, "add": -100, "unit": "percent" }, "name": "A/F ratio adj"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "C0", "dout": "81", "cmd": {"22": "1124"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "7E0", "rax": "7E8", "din": "C0", "dout": "81", "cmd": {"22": "1124"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018], "from": 2020 },
   "signals": [
     {"id": "MURANO_F_RAT_ADJ_B2", "path": "Engine", "fmt": { "len": 8, "max": 155, "min": -100, "add": -100, "unit": "percent" }, "name": "Air/fuel ratio adjustment, bank 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "112A"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "112A"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018], "from": 2020 },
   "signals": [
     {"id": "MURANO_MANIFOLD_P_SENS_V", "path": "Battery", "fmt": { "len": 8, "max": 5.1, "div": 50, "unit": "volts" }, "name": "Manifold pressure sensor voltage"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "C0", "cmd": {"22": "1135"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "7E0", "rax": "7E8", "din": "C0", "cmd": {"22": "1135"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018], "from": 2020 },
   "signals": [
     {"id": "MURANO_CAM_ADV_ANG", "path": "Engine", "fmt": { "len": 8, "max": 63.5, "min": -64, "div": 2, "add": -64, "unit": "degrees" }, "name": "Camshaft adv angle"}
   ]},
@@ -153,15 +153,15 @@
   "signals": [
     {"id": "MURANO_CAM_ADV_B2", "path": "Engine", "fmt": { "len": 8, "max": 63.5, "min": -64, "div": 2, "add": -64, "unit": "degrees" }, "name": "Intake camshaft advance, bank 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "C0", "cmd": {"22": "1138"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "7E0", "rax": "7E8", "din": "C0", "cmd": {"22": "1138"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018], "from": 2020 },
   "signals": [
     {"id": "MURANO_CAM_VLV_DUTY", "path": "Engine", "fmt": { "len": 8, "max": 99.6, "mul": 25, "div": 64, "unit": "percent" }, "name": "Camshaft valve duty"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "C0", "dout": "81", "cmd": {"22": "1139"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "7E0", "rax": "7E8", "din": "C0", "dout": "81", "cmd": {"22": "1139"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018], "from": 2020 },
   "signals": [
     {"id": "MURANO_CAM_VLV_DUTY_B2", "path": "Engine", "fmt": { "len": 8, "max": 99.6, "mul": 25, "div": 64, "unit": "percent" }, "name": "Camshaft valve duty, bank 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "113C"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "113C"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018], "from": 2020 },
   "signals": [
     {"id": "MURANO_IGN_ADVANCE", "path": "Engine", "fmt": { "len": 8, "max": 112, "min": -143, "mul": -1, "add": 112, "unit": "scalar" }, "name": "Ignition advance"}
   ]},
@@ -169,11 +169,11 @@
   "signals": [
     {"id": "MURANO_REMAINING_FUEL", "path": "Fuel", "fmt": { "len": 8, "max": 255, "unit": "liters" }, "name": "Remaining fuel"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "C0", "cmd": {"22": "1201"}, "freq": 0.25, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "7E0", "rax": "7E8", "din": "C0", "cmd": {"22": "1201"}, "freq": 0.25, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018], "from": 2020 },
   "signals": [
     {"id": "MURANO_CURRENT_RPM", "path": "Movement", "fmt": { "len": 16, "max": 819187, "mul": 25, "div": 2, "unit": "rpm" }, "name": "Current engine speed"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "C0", "cmd": {"22": "1204"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "7E0", "rax": "7E8", "din": "C0", "cmd": {"22": "1204"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018], "from": 2020 },
   "signals": [
     {"id": "MURANO_MAF_VOLTS", "path": "Battery", "fmt": { "len": 16, "max": 327, "div": 200, "unit": "volts" }, "name": "Mass air flow volts"}
   ]},
@@ -181,19 +181,19 @@
   "signals": [
     {"id": "MURANO_MAF_V_B2", "path": "Engine", "fmt": { "len": 16, "max": 327, "div": 200, "unit": "volts" }, "name": "Mass air flow sensor voltage, bank 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "C0", "cmd": {"22": "1208"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "7E0", "rax": "7E8", "din": "C0", "cmd": {"22": "1208"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018], "from": 2020 },
   "signals": [
     {"id": "MURANO_FUEL_BASE_WIDTH", "path": "Fuel", "fmt": { "len": 16, "max": 31.99, "div": 2048, "unit": "milliseconds" }, "name": "Fuel base pulse width"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "C0", "cmd": {"22": "1209"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "7E0", "rax": "7E8", "din": "C0", "cmd": {"22": "1209"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018], "from": 2020 },
   "signals": [
     {"id": "MURANO_MAF", "path": "Engine", "fmt": { "len": 16, "max": 655, "div": 100, "unit": "gramsPerSecond" }, "name": "Mass air flow"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1223"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1223"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018], "from": 2020 },
   "signals": [
     {"id": "MURANO_REFRIGERANT_FLUID_V", "path": "Battery", "fmt": { "len": 16, "max": 327, "div": 200, "unit": "volts" }, "name": "Refrigerant fluid sensor voltage"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1225"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1225"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018], "from": 2020 },
   "signals": [
     {"id": "MURANO_UP_OXYGEN_SENS_V", "path": "Battery", "fmt": { "len": 16, "max": 327, "div": 200, "unit": "volts" }, "name": "Upstream oxygen sensor voltage"}
   ]},
@@ -205,21 +205,21 @@
   "signals": [
     {"id": "MURANO_VVT_EOT", "path": "Engine", "fmt": { "len": 16, "max": 1262, "min": -273, "mul": 3, "div": 128, "add": -273, "unit": "celsius" }, "name": "Variable valve timing oil temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "C0", "cmd": {"22": "1305"}, "freq": 0.25, "dbgfilter": { "to": 2008, "years": [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018], "from": 2020 },
+{ "hdr": "7E0", "rax": "7E8", "din": "C0", "cmd": {"22": "1305"}, "freq": 0.25, "dbgfilter": { "to": 2008, "years": [2010, 2011, 2012, 2013, 2014, 2016, 2017, 2018], "from": 2020 },
   "signals": [
     {"id": "MURANO_BRAKE_SWITCH", "path": "Control", "fmt": {"bix": 5, "len": 1, "max": 1, "unit": "scalar" }, "name": "Brake switch"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "C0", "dout": "81", "cmd": {"22": "1307"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "7E0", "rax": "7E8", "din": "C0", "dout": "81", "cmd": {"22": "1307"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018], "from": 2020 },
   "signals": [
     {"id": "MURANO_AC_COMP",        "path": "Engine", "fmt": {"bix": 1, "len": 1, "max": 1, "unit": "scalar" }, "name": "Air conditioning compressor"},
     {"id": "MURANO_IDLE_CTRL_MODE", "path": "Engine", "fmt": {"bix": 6, "len": 1, "max": 1, "unit": "scalar" }, "name": "Idle control mode"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "130D"}, "freq": 0.25, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "130D"}, "freq": 0.25, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018], "from": 2020 },
   "signals": [
     {"id": "MURANO_BRAKE_SWITCH_NUMBER_2", "path": "Control", "fmt": {"bix": 2, "len": 1, "max": 1, "unit": "offon" }, "name": "BRAKE SWITCH, number 2"},
     {"id": "MURANO_BRAKE_SWITCH_NUMBER_1", "path": "Control", "fmt": {"bix": 3, "len": 1, "max": 1, "unit": "offon" }, "name": "BRAKE SWITCH, number 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "C0", "dout": "81", "cmd": {"22": "1313"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "7E0", "rax": "7E8", "din": "C0", "dout": "81", "cmd": {"22": "1313"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018], "from": 2020 },
   "signals": [
     {"id": "MURANO_COOLING_FAN_LOW",  "path": "Engine", "fmt": {"bix": 5, "len": 1, "max": 1, "unit": "scalar" }, "name": "Cooling fan low"},
     {"id": "MURANO_COOLING_FAN_HIGH", "path": "Engine", "fmt": {"bix": 7, "len": 1, "max": 1, "unit": "scalar" }, "name": "Cooling fan high"}
