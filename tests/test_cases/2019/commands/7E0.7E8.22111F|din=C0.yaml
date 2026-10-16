@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.22111F|din=C0
 test_cases:
 - expected_values:
-    MURANO_VARIABLE_VLV_TIM_OIL_T: 37
-  response: 7E80462111F57
+    MURANO_VARIABLE_VLV_TIM_OIL_T: 31
+  response: 7E80462111F51
 - expected_values:
     MURANO_VARIABLE_VLV_TIM_OIL_T: 86
   response: 7E80462111F88
