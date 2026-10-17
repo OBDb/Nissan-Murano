@@ -4,16 +4,21 @@ test_cases:
     MURANO_TCM_RPM: 559
   response: 7E905621204022F
 - expected_values:
-    MURANO_TCM_RPM: 781
-  response: 7E905621204030D
-- expected_values:
     MURANO_TCM_RPM: 1018
   response: 7E90562120403FA
 - expected_values:
-    MURANO_TCM_RPM: 1593
-  response: '7E9056212040639'
+    MURANO_TCM_RPM: 1034
+  response: 7E905621204040A
+- expected_values:
+    MURANO_TCM_RPM: 1843
+  response: '7E9056212040733'
 - expected_values:
     MURANO_TCM_RPM: 621
   response: |-
     7E9240000000CFFFFFF
     7E905621204026D
+- expected_values:
+    MURANO_TCM_RPM: 1931
+  response: |-
+    7E9240000000CFFFFFF
+    7E905621204078B
