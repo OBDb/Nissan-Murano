@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22110A|din=C0
+test_cases:
+- expected_values:
+    MURANO_IGN_TIM_ADVANCE: 12
+  response: 7E80462110A62
+- expected_values:
+    MURANO_IGN_TIM_ADVANCE: 10
+  response: 7E80462110A64
+- expected_values:
+    MURANO_IGN_TIM_ADVANCE: 9
+  response: 7E80462110A65

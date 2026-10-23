@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.221204|din=C0
+test_cases:
+- expected_values:
+    MURANO_MAF_VOLTS: 0
+  response: '7E8056212040000'

@@ -1,0 +1,11 @@
+command_id: 758.778.2110|fc=1
+test_cases:
+- expected_values:
+    MURANO_WHL_1_P: null
+    MURANO_WHL_2_P: null
+    MURANO_WHL_3_P: null
+    MURANO_WHL_4_P: null
+  response: |-
+    778100F611000000000
+    778210000F000F06A6A
+    778226A6AFFFFFFFFFF

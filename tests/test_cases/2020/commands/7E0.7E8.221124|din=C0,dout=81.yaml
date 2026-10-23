@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.221124|din=C0,dout=81
+test_cases:
+- expected_values:
+    MURANO_F_RAT_ADJ_B2: 2
+  response: '7E80462112466'
+- expected_values:
+    MURANO_F_RAT_ADJ_B2: 3
+  response: '7E80462112467'
+- expected_values:
+    MURANO_F_RAT_ADJ_B2: 4
+  response: '7E80462112468'

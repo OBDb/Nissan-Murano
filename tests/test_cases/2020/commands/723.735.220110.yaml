@@ -1,0 +1,11 @@
+command_id: 723.735.220110
+test_cases:
+- expected_values:
+    MURANO_STEER_ANGLE: 50.1
+  response: 7350562011001F5
+- expected_values:
+    MURANO_STEER_ANGLE: 50.2
+  response: 7350562011001F6
+- expected_values:
+    MURANO_STEER_ANGLE: 50.3
+  response: 7350562011001F7

@@ -1,0 +1,14 @@
+command_id: 7E1.7E9.221206|din=C0,dout=81
+test_cases:
+- expected_values:
+    MURANO_TCM_PRI_P_V: 1.17791
+  response: 7E90562120600F1
+- expected_values:
+    MURANO_TCM_PRI_P_V: 1.1828
+  response: 7E90562120600F2
+- expected_values:
+    MURANO_TCM_PRI_P_V: 1.18768
+  response: 7E90562120600F3
+- expected_values:
+    MURANO_TCM_PRI_P_V: 1.19746
+  response: 7E90562120600F5

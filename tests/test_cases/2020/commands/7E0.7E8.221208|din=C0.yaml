@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.221208|din=C0
+test_cases:
+- expected_values:
+    MURANO_FUEL_BASE_WIDTH: 3.30469
+  response: 7E8056212081A70
+- expected_values:
+    MURANO_FUEL_BASE_WIDTH: 3.31934
+  response: 7E8056212081A8E
+- expected_values:
+    MURANO_FUEL_BASE_WIDTH: 3.32227
+  response: 7E8056212081A94
+- expected_values:
+    MURANO_FUEL_BASE_WIDTH: 3.32812
+  response: 7E8056212081AA0
+- expected_values:
+    MURANO_FUEL_BASE_WIDTH: 3.34766
+  response: 7E8056212081AC8
+- expected_values:
+    MURANO_FUEL_BASE_WIDTH: 3.35205
+  response: 7E8056212081AD1

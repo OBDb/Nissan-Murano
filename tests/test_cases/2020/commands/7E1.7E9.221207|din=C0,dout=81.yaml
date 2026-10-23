@@ -1,0 +1,17 @@
+command_id: 7E1.7E9.221207|din=C0,dout=81
+test_cases:
+- expected_values:
+    MURANO_TCM_ATF_T_V: 1.71065
+  response: 7E905621207015E
+- expected_values:
+    MURANO_TCM_ATF_T_V: 1.72043
+  response: '7E9056212070160'
+- expected_values:
+    MURANO_TCM_ATF_T_V: 1.73509
+  response: '7E9056212070163'
+- expected_values:
+    MURANO_TCM_ATF_T_V: 1.75464
+  response: '7E9056212070167'
+- expected_values:
+    MURANO_TCM_ATF_T_V: 1.76442
+  response: '7E9056212070169'

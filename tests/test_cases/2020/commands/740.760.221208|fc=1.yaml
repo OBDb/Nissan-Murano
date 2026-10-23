@@ -1,0 +1,8 @@
+command_id: 740.760.221208|fc=1
+test_cases:
+- expected_values:
+    MURANO_ABS_STEER_ANG: 50.1
+  response: 7600562120801F5
+- expected_values:
+    MURANO_ABS_STEER_ANG: 50.3
+  response: 7600562120801F7
