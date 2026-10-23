@@ -1,0 +1,14 @@
+command_id: 7E1.7E9.22110C|din=C0,dout=81
+test_cases:
+- expected_values:
+    MURANO_TCM_ATF_T: 35
+  response: 7E90462110C4B
+- expected_values:
+    MURANO_TCM_ATF_T: 36
+  response: 7E90462110C4C
+- expected_values:
+    MURANO_TCM_ATF_T: 37
+  response: 7E90462110C4D
+- expected_values:
+    MURANO_TCM_ATF_T: 38
+  response: 7E90462110C4E

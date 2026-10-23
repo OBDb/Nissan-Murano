@@ -1,0 +1,11 @@
+command_id: 723.735.220107
+test_cases:
+- expected_values:
+    MURANO_RADAR_DISTANCE: 2.5
+  response: '735056201070019'
+- expected_values:
+    MURANO_RADAR_DISTANCE: 2.9
+  response: 73505620107001D
+- expected_values:
+    MURANO_RADAR_DISTANCE: 10.3
+  response: '735056201070067'

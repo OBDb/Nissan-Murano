@@ -1,0 +1,17 @@
+command_id: 7E1.7E9.22120C|din=C0,dout=81
+test_cases:
+- expected_values:
+    MURANO_TCM_INPUT_RPM_2: 639
+  response: 7E90562120C027F
+- expected_values:
+    MURANO_TCM_INPUT_RPM_2: 651
+  response: 7E90562120C028B
+- expected_values:
+    MURANO_TCM_INPUT_RPM_2: 657
+  response: 7E90562120C0291
+- expected_values:
+    MURANO_TCM_INPUT_RPM_2: 666
+  response: 7E90562120C029A
+- expected_values:
+    MURANO_TCM_INPUT_RPM_2: 684
+  response: 7E90562120C02AC

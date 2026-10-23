@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.221111|din=C0
+test_cases:
+- expected_values:
+    MURANO_FUEL_T_7E0: 13
+  response: 7E8046211113F

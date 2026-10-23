@@ -1,0 +1,8 @@
+command_id: 7E1.7E9.22121A|din=C0,dout=81
+test_cases:
+- expected_values:
+    MURANO_TCM_ISO_2_C: 0.002
+  response: 7E90562121A02E0
+- expected_values:
+    MURANO_TCM_ISO_2_C: 0.002
+  response: 7E90562121A02E1

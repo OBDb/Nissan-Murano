@@ -1,0 +1,5 @@
+command_id: 723.735.220101
+test_cases:
+- expected_values:
+    MURANO_YAW_RATE: 0.2
+  response: '735056201010002'
