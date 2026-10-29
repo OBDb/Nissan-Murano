@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     MURANO_UP_OXYGEN_SENS_V: 2.185
   response: 7E80562122501B5
+- expected_values:
+    MURANO_UP_OXYGEN_SENS_V: 2.205
+  response: 7E80562122501B9

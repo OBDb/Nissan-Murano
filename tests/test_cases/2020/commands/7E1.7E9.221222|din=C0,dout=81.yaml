@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     MURANO_TCM_SEC_SOL_MON: 0
   response: 7E90562122200B4
+- expected_values:
+    MURANO_TCM_SEC_SOL_MON: 0
+  response: 7E90562122200B6

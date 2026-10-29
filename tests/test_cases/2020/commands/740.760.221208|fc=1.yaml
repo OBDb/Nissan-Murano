@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     MURANO_ABS_STEER_ANG: 50.3
   response: 7600562120801F7
+- expected_values:
+    MURANO_ABS_STEER_ANG: -15.5
+  response: 76005621208FF65

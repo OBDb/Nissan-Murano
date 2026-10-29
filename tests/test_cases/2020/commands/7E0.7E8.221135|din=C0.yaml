@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     MURANO_CAM_ADV_ANG: 0
   response: '7E80462113580'
+- expected_values:
+    MURANO_CAM_ADV_ANG: 9
+  response: '7E80462113592'

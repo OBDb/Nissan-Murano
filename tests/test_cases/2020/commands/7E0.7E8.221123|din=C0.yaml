@@ -1,6 +1,9 @@
 command_id: 7E0.7E8.221123|din=C0
 test_cases:
 - expected_values:
+    MURANO_F_RAT_ADJ: -1
+  response: '7E80462112363'
+- expected_values:
     MURANO_F_RAT_ADJ: 3
   response: '7E80462112367'
 - expected_values:

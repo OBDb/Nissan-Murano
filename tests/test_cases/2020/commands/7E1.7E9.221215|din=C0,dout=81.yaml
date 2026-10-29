@@ -1,6 +1,9 @@
 command_id: 7E1.7E9.221215|din=C0,dout=81
 test_cases:
 - expected_values:
+    MURANO_TCM_PRI_TQ: 28.3
+  response: 7E905621215011B
+- expected_values:
     MURANO_TCM_PRI_TQ: -19.4
   response: 7E905621215FF3E
 - expected_values:

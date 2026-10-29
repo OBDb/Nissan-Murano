@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     MURANO_TCM_PRI_SOL_C: 0.003
   response: 7E90562121B030B
+- expected_values:
+    MURANO_TCM_PRI_SOL_C: 0.003
+  response: 7E90562121B030D

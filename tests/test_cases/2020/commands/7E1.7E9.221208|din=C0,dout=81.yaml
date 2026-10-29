@@ -4,6 +4,9 @@ test_cases:
     MURANO_TCM_G_V: 0.016
   response: 7E90562120800A0
 - expected_values:
+    MURANO_TCM_G_V: 0.018
+  response: 7E90562120800B4
+- expected_values:
     MURANO_TCM_G_V: 0.019
   response: 7E90562120800BE
 - expected_values:

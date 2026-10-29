@@ -15,3 +15,6 @@ test_cases:
 - expected_values:
     MURANO_TCM_ATF_T_V: 1.76442
   response: '7E9056212070169'
+- expected_values:
+    MURANO_TCM_ATF_T_V: 1.9697
+  response: '7E9056212070193'

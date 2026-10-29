@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     MURANO_TCM_ISO_2_C: 0.002
   response: 7E90562121A02E1
+- expected_values:
+    MURANO_TCM_ISO_2_C: 0.002
+  response: 7E90562121A02E6
