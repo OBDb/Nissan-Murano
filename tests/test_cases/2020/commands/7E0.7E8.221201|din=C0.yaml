@@ -12,3 +12,6 @@ test_cases:
 - expected_values:
     MURANO_CURRENT_RPM: 725
   response: 7E805621201003A
+- expected_values:
+    MURANO_CURRENT_RPM: 900
+  response: '7E8056212010048'

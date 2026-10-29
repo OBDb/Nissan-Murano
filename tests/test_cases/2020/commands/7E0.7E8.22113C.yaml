@@ -1,6 +1,9 @@
 command_id: 7E0.7E8.22113C
 test_cases:
 - expected_values:
+    MURANO_IGN_ADVANCE: 15
+  response: 7E80462113C61
+- expected_values:
     MURANO_IGN_ADVANCE: 14
   response: 7E80462113C62
 - expected_values:

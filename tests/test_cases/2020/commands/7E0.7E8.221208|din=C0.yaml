@@ -18,3 +18,6 @@ test_cases:
 - expected_values:
     MURANO_FUEL_BASE_WIDTH: 3.35205
   response: 7E8056212081AD1
+- expected_values:
+    MURANO_FUEL_BASE_WIDTH: 3.72754
+  response: 7E8056212081DD2

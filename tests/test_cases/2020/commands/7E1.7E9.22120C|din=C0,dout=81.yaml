@@ -15,3 +15,6 @@ test_cases:
 - expected_values:
     MURANO_TCM_INPUT_RPM_2: 684
   response: 7E90562120C02AC
+- expected_values:
+    MURANO_TCM_INPUT_RPM_2: 808
+  response: 7E90562120C0328

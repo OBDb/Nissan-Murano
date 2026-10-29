@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     MURANO_STEER_ANGLE: 50.3
   response: 7350562011001F7
+- expected_values:
+    MURANO_STEER_ANGLE: -15.5
+  response: 73505620110FF65

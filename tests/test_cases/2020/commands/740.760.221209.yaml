@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     MURANO_BRAKE_MC_P: 0
   response: '760056212090000'
+- expected_values:
+    MURANO_BRAKE_MC_P: 84.63542
+  response: '760056212090082'
+- expected_values:
+    MURANO_BRAKE_MC_P: 101.5625
+  response: 76005621209009C

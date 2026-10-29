@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     MURANO_TCM_ENG_TQ: 3
   response: 7E905621214001E
+- expected_values:
+    MURANO_TCM_ENG_TQ: 20.5
+  response: 7E90562121400CD
