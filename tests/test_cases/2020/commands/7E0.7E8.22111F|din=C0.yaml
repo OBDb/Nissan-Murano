@@ -4,5 +4,5 @@ test_cases:
     MURANO_VARIABLE_VLV_TIM_OIL_T: 8
   response: 7E80462111F3A
 - expected_values:
-    MURANO_VARIABLE_VLV_TIM_OIL_T: 89
-  response: 7E80462111F8B
+    MURANO_VARIABLE_VLV_TIM_OIL_T: 91
+  response: 7E80462111F8D
