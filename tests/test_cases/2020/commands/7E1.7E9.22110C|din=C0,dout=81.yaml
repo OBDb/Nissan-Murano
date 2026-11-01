@@ -4,5 +4,5 @@ test_cases:
     MURANO_TCM_ATF_T: 5
   response: 7E90462110C2D
 - expected_values:
-    MURANO_TCM_ATF_T: 61
-  response: 7E90462110C65
+    MURANO_TCM_ATF_T: 69
+  response: 7E90462110C6D
