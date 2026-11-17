@@ -4,5 +4,5 @@ test_cases:
     MURANO_TCM_REQ_RPM: 4500
   response: 7E9046211145A
 - expected_values:
-    MURANO_TCM_REQ_RPM: 12700
+    MURANO_TCM_REQ_RPM: null
   response: 7E904621114FE
