@@ -18,6 +18,11 @@ test_cases:
     7E9240000000CFFFFFF
     7E905621204026D
 - expected_values:
+    MURANO_TCM_RPM: 746
+  response: |-
+    7E9240000000CFFFFFF
+    7E90562120402EA
+- expected_values:
     MURANO_TCM_RPM: 1931
   response: |-
     7E9240000000CFFFFFF

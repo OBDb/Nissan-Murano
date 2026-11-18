@@ -7,12 +7,12 @@ test_cases:
     MURANO_TCM_ATF_T: 96
   response: 7E90462110C88
 - expected_values:
-    MURANO_TCM_ATF_T: 45
+    MURANO_TCM_ATF_T: 37
   response: |-
     7E9240000000CFFFFFF
-    7E90462110C55
+    7E90462110C4D
 - expected_values:
-    MURANO_TCM_ATF_T: 58
+    MURANO_TCM_ATF_T: 72
   response: |-
     7E9240000000CFFFFFF
-    7E90462110C62
+    7E90462110C70
